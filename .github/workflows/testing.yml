@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run linter
-        run: npx standard
+        run: npx standard --fix
 
       - name: Minify JS files
         run: |
